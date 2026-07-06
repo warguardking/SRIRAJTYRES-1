@@ -1,0 +1,301 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    padding-top: 50px;
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+h1{
+    color: gold;
+    font-size: 50px;
+     margin-top: 20px;
+     margin-bottom: 10px;
+     letter-spacing: 3px;
+     text-shadow: 2px 2px 10px gold;
+     font-weight: bold;
+}
+
+h2{
+    color: #b22222;
+    font-size: 30px;
+    margin-top: 0;
+    letter-spacing: 2px;
+    font-weight: normal;
+}
+
+p{
+    font-size: 20px;
+     margin: 15px;
+}
+#slogan{
+    color: gold;
+    font-size: 24px;
+    margin-top: 30px;
+    font-style: italic;
+}
+#since{
+    color: lightgray;
+    font-size: 18px;
+    margin-top: 5px;
+    letter-spacing: 1px;
+}
+hr{
+    width: 60%;
+    border: 1px solid gold;
+    margin-top: 30px;
+}
+h3{
+    color: gold;
+    font-size: 35px;
+    margin-top: 50px;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 5px gold;
+}
+
+#owner{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.btn{
+    background-color: #b22222;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+footer{
+    margin-top: 50px;
+    color: gray;
+    font-size: 16px;
+    padding-top: 20px;
+    opacity:0.8;
+}
+#about{
+    text-align: center;
+    margin-top: 50px;
+}
+.about-text{
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+#owner-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    border: 4px solid gold;
+    object-fit: cover;
+    box-shadow: 0px 0px 20px gold;
+    transition: 5s;
+}
+
+#owner-img:hover{
+    transform: scale(1.05);
+}
+
+#owner{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+#designation{
+    color: white;
+    font-size: 20px;
+}
+
+#about-text{
+    color: white;
+    font-size: 22px;
+    max-width: 1000px;
+    margin: 20px auto;
+    line-height: 1.5;
+}
+.logo-container{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.logo{
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border: 4px solid gold;
+    border-radius: 25px;
+    box-shadow: 0 0 25px gold;
+    transition: 0.3s ease;
+}
+
+.logo:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 35px gold;
+}
+i{
+    margin-right: 8px;
+}
+.product-card{
+    background-color: #111;
+    border: 2px solid gold;
+    border-radius: 15px;
+    padding: 12px;
+    margin: 12px auto;
+    width: 50%;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.product-card:hover{
+    transform: scale(1.03);
+    box-shadow: 0px 0px 20px gold;
+}
+
+.product-card i{
+    color: gold;
+    font-size: 24px;
+    margin-right: 8px;
+}
+
+.product-card h4{
+    display: inline;
+    font-size: 22px;
+}
+.product-card p{
+    font-size: 15px;
+    color: #d3d3d3;
+    margin-top: 8px;
+}
+.product-card small{
+    display: block;
+    margin-top: 10px;
+    color: gold;
+    font-size: 13px;
+}
+.whatsapp-btn,
+.map-btn{
+    display: inline-block;
+    background: #b22222;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px;
+    transition: 0.3s;
+}
+
+.whatsapp-btn:hover,
+.map-btn:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px gold;
+}
+.phone-link{
+    background: none;
+    padding: 0;
+    border-radius: 0;
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+.phone-link:hover{
+    color: gold;
+    text-shadow: 0 0 8px gold;
+}
+.phone-btn{
+    padding: 12px 30px;
+    font-size: 18px;
+}
+.shop-banner{
+    width: 100%;
+    max-width: 1200px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 3px solid gold;
+    box-shadow: 0 0 25px gold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.shop-inside{
+    width: 100%;
+    max-width: 900px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 3px solid gold;
+    box-shadow: 0 0 20px gold;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.section-title{
+    color: gold;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px gold;
+}
+.section-title:hover{
+    text-shadow: 0 0 20px gold;
+}
+.btn{
+    background-color: #b22222;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px gold;
+}
+.trusted-brands{
+    width:100%;
+    max-width:900px;
+    height:auto;
+    border:3px solid gold;
+    border-radius:15px;
+    box-shadow:0 0 20px gold;
+    margin-top:20px;
+    margin-bottom:30px;
+}
+.brand-image{
+    width: 420px;
+}
+@media (max-width:768px){
+
+    .shop-banner{
+        height: auto;
+        object-fit: contain;
+    }
+
+    .shop-inside{
+        height: auto;
+        object-fit: contain;
+    }
+
+    h1{
+        font-size: 35px;
+    }
+
+    h2{
+        font-size: 22px;
+    }
+}
