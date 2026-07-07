@@ -323,4 +323,14 @@ i{
         margin-top:15px;
     }
 
+.section-title{
+    font-size:24px;
+    white-space:nowrap;
+}
+
+h3{
+    font-size:24px;
+    white-space:nowrap;
+}
+
 }
